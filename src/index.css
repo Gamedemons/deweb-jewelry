@@ -9,6 +9,7 @@
   /* Timings */
   --primary-transition-timing: 0.2s;
   --primary-transition-scale: 1.2;
+  --primary-transition-image-scale: 1.05;
   
 
   /* Flat button */
