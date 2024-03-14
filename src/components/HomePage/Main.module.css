@@ -6,19 +6,16 @@ main {
 }
 
 section {
-    margin-bottom: 3em;
-}
+  margin-bottom: 3em;
 
-/* Intro Section */
-#intro {
   width: 80%;
-
   border: 2px solid aqua;
 }
 
+/* Intro Section */
 #intro_quote {
   margin-top: 3rem;
-  padding: 2rem 0rem;
+  padding: 3rem 0rem;
 
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
@@ -26,19 +23,54 @@ section {
 }
 
 #intro_quote > span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #intro_phrase {
-    margin-bottom: 3.5rem;
-  
-    font-family: "Cormorant Garamond", serif;
-    font-weight: lighter;
-    font-size: 2.1rem;
-    font-style: italic;
+  margin-bottom: 4.5rem;
+
+  font-family: "Cormorant Garamond", serif;
+  font-weight: lighter;
+  font-size: 2.1rem;
+  font-style: italic;
 }
 
-button {
+#intro > button {
+  padding: 1rem 4rem;
+
+  font-size: 1.05rem;
+}
+
+/* Bestsellers Section */
+
+
+/* Motto Section */
+#motto {
+  display: grid;
+  justify-items: center;
+
+  text-align: center;
+}
+
+#motto_quote {
+  margin-top: 3rem;
+  padding: 3rem 0rem;
+
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  font-style: italic;
+}
+
+#motto_phrase {
+  margin-bottom: 4.5rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+#motto > button {
   padding: 1rem 4rem;
 
   font-size: 1.05rem;
