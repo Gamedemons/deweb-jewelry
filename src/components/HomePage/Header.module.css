@@ -16,6 +16,11 @@ nav > ul {
 nav > ul > li {
   font-family: "Montserrat", sans-serif;
   padding: 2%;
+  transition: transform var(--primary-transition-timing);
+}
+
+nav > ul > li:hover {
+  transform: scale(var(--primary-transition-scale));
 }
 
 /* Header Logo */
@@ -28,11 +33,11 @@ nav > ul > li {
   display: grid;
   justify-items: center;
   align-items: center;
-  padding: 0.1em;
+  padding: 0.1rem;
 
   background: var(--primary-color);
-  width: 6.5em;
-  height: 7em;
+  width: 6.5rem;
+  height: 7rem;
   border-radius: 50%;
 }
 
