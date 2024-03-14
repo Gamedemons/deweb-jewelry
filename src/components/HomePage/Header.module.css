@@ -1,0 +1,81 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 10%;
+  background: transparent;
+}
+
+
+/* Header Nav */
+nav > ul {
+  display: flex;
+  list-style: none;
+  margin: 5%;
+}
+
+nav > ul > li {
+  font-family: "Montserrat", sans-serif;
+  padding: 2%;
+}
+
+/* Header Logo */
+#logo_wrapper {
+  display: grid;
+  justify-items: center;
+}
+
+#logo_bg {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 0.1em;
+
+  background: var(--primary-color);
+  width: 6.5em;
+  height: 7em;
+  border-radius: 50%;
+}
+
+#logo {
+  width: 145%;
+  margin-top: 1%;
+}
+
+/* Header User Details */
+#user_details {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5%;
+}
+
+#user_details > div {
+  font-family: "Montserrat", sans-serif;
+  padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cormorant {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+}
