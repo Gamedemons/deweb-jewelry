@@ -51,7 +51,7 @@ hr {
 }
 
 #bestsellers > h1 {
-  padding: 3rem 0rem;
+  padding: 4rem 0rem;
 
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -74,8 +74,8 @@ hr {
 }
 
 #motto_quote {
-  margin-top: 3rem;
-  padding: 3rem 0rem;
+  /* margin-top: 3rem; */
+  padding: 2.5rem 0rem;
 
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
@@ -85,6 +85,7 @@ hr {
 
 #motto_phrase {
   margin-bottom: 4.5rem;
+  padding: 1rem 0rem;
 
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -95,4 +96,25 @@ hr {
   padding: 1rem 4rem;
 
   font-size: 1.05rem;
+}
+
+/* New Arrivals Section */
+#newarrivals {
+  display: grid;
+  justify-items: center;
+}
+
+#newarrivals > h1 {
+  padding: 4rem 0rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+#newarrival_card_wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
 }
