@@ -1,7 +1,9 @@
-import React from "react";
 import styles from "./ImageCard.module.css";
 
-const ImageCard = (props) => {
+const ImageCard = (props:{
+  image: string,
+  about: string
+}) => {
   return (
     <div id={styles.card}>
       <div id={styles.image_wrapper}>

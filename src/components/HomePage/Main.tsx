@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Main.module.css";
 
 import bestseller_1 from "../../assets/jewelry/bestseller_1.jpg";
@@ -15,7 +14,7 @@ import ImageCard from "../ui/ImageCard";
 import Divider from "../ui/Divider";
 
 const Main = () => {
-  let bestsellers = [
+  const bestsellers = [
     {
       id: "bestseller_1",
       image: bestseller_1,
@@ -36,7 +35,7 @@ const Main = () => {
     },
   ];
 
-  let newarrivals = [
+  const newarrivals = [
     {
       id: "newarrivals_1",
       image: newarrivals_1,
