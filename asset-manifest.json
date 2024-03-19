@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/deweb-jewelry/static/css/main.a13d62f5.css",
-    "main.js": "/deweb-jewelry/static/js/main.6f38cd23.js",
+    "main.css": "/deweb-jewelry/static/css/main.3820bf78.css",
+    "main.js": "/deweb-jewelry/static/js/main.3fb639f0.js",
     "static/js/453.f9fb01d3.chunk.js": "/deweb-jewelry/static/js/453.f9fb01d3.chunk.js",
     "static/media/bestseller_2.jpg": "/deweb-jewelry/static/media/bestseller_2.d90d1ea0128c77519ba2.jpg",
     "static/media/bestseller_3.jpg": "/deweb-jewelry/static/media/bestseller_3.123c4269fae916fe827e.jpg",
     "static/media/bestseller_1.jpg": "/deweb-jewelry/static/media/bestseller_1.df284c9d8bab552f113f.jpg",
     "static/media/logo1.svg": "/deweb-jewelry/static/media/logo1.cf56e8a7656ccbce7a9c51e219ea0184.svg",
+    "static/media/Divider - Star.svg": "/deweb-jewelry/static/media/Divider - Star.869d016afb8ed920b74d29b6495cda6f.svg",
     "index.html": "/deweb-jewelry/index.html",
-    "main.a13d62f5.css.map": "/deweb-jewelry/static/css/main.a13d62f5.css.map",
-    "main.6f38cd23.js.map": "/deweb-jewelry/static/js/main.6f38cd23.js.map",
+    "main.3820bf78.css.map": "/deweb-jewelry/static/css/main.3820bf78.css.map",
+    "main.3fb639f0.js.map": "/deweb-jewelry/static/js/main.3fb639f0.js.map",
     "453.f9fb01d3.chunk.js.map": "/deweb-jewelry/static/js/453.f9fb01d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a13d62f5.css",
-    "static/js/main.6f38cd23.js"
+    "static/css/main.3820bf78.css",
+    "static/js/main.3fb639f0.js"
   ]
 }
