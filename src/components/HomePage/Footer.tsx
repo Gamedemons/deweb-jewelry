@@ -1,7 +1,11 @@
+import styles from './Footer.module.css'
+
 const Footer = () => {
   return (
-    <footer>
-      awdawd
+    <footer id={styles.footer}>
+      <div>
+        fefef
+      </div>
     </footer>
   )
 }
