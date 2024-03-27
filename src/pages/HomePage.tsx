@@ -1,15 +1,12 @@
-import Header from '../components/HomePage/Header'
-import Main from '../components/HomePage/Main'
-import Footer from '../components/HomePage/Footer'
+import MainLayout from "../layouts/MainLayout";
+import Main from "../components/HomePage/Main";
 
 const HomePage = () => {
   return (
-    <>
-      <Header/>
-      <Main/>
-      <Footer/>
-    </>
-  )
-}
+    <MainLayout>
+      <Main />
+    </MainLayout>
+  );
+};
 
-export default HomePage
+export default HomePage;

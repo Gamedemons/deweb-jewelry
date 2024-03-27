@@ -1,0 +1,32 @@
+/* Motto Section */
+#motto {
+  display: grid;
+  justify-items: center;
+
+  text-align: center;
+}
+
+#motto_quote {
+  /* margin-top: 3rem; */
+  padding: 2.5rem 0rem;
+
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  font-style: italic;
+}
+
+#motto_phrase {
+  margin-bottom: 4.5rem;
+  padding: 1rem 0rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+#motto > button {
+  padding: 1rem 4rem;
+
+  font-size: 1.05rem;
+}
