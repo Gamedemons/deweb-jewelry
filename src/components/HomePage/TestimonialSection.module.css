@@ -1,0 +1,40 @@
+/* Motto Section */
+#testimonial {
+  display: grid;
+  justify-items: center;
+
+  text-align: center;
+  background: radial-gradient(hsl(68, 100%, 96%), transparent 70%);
+}
+
+#testimonial_quotation {
+  height: 9rem;
+  overflow: hidden;
+  border-radius: 1%;
+}
+
+#testimonial_quotation > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#testimonial_quotation > span{
+  display: block;
+  position: relative;
+  bottom: 30%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+#testimonial_phrase {
+  width: 60%;
+  margin-bottom:  1.5rem;
+  padding: 1rem 0rem;
+
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  font-style: italic;
+}

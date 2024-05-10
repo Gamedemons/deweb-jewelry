@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer id={styles.footer}>
       <div>
-        fefef
+        Footer
       </div>
     </footer>
   )

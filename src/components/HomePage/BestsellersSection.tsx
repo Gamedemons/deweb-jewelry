@@ -39,6 +39,7 @@ const BestsellersSection = () => {
   return (
     <section id={styles.bestsellers}>
       <h1>Our Bestsellers</h1>
+      <span id={styles.view_all}>VIEW ALL</span>
       <div id={styles.bestseller_card_wrapper}>{BestsellersCard}</div>
     </section>
   );

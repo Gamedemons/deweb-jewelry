@@ -1,10 +1,10 @@
-/* New Arrivals Section */
-#newarrivals {
+/* categories Section */
+#categories {
   display: grid;
   justify-items: center;
 }
 
-#newarrivals > h1 {
+#categories > h1 {
   padding: 4rem 0rem;
 
   font-family: "Montserrat", sans-serif;
@@ -12,7 +12,7 @@
   font-size: 3.5rem;
 }
 
-#newarrival_card_wrapper {
+#category_card_wrapper {
   display: flex;
   justify-content: space-between;
 

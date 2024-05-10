@@ -1,17 +1,20 @@
 import styles from "./Main.module.css";
 
 import Hero from "./Hero";
-import BestsellersSection from "./BestsellersSection";
+import CatagoriesSection from "./CategoriesSection";
 import MottoSection from "./MottoSection";
+import BestsellersSection from "./BestsellersSection";
+import TestimonialSection from "./TestimonialSection";
 import NewarrivalsSection from "./NewarrivalsSection";
 
 const Main = () => {
   return (
     <main id={styles.main}>
       <Hero />
-      <hr />
-      <BestsellersSection />
+      <CatagoriesSection />
       <MottoSection />
+      <BestsellersSection />
+      <TestimonialSection />
       <NewarrivalsSection />
     </main>
   );

@@ -2,9 +2,9 @@ import styles from "./NewarrivalsSection.module.css";
 
 import ImageCard from "../ui/ImageCard";
 
-import newarrivals_1 from "../../assets/jewelry/bestseller_1.jpg";
-import newarrivals_2 from "../../assets/jewelry/bestseller_2.jpg";
-import newarrivals_3 from "../../assets/jewelry/bestseller_3.jpg";
+import newarrivals_1 from "../../assets/jewelry/newarrival (1).png";
+import newarrivals_2 from "../../assets/jewelry/newarrival (2).png";
+import newarrivals_3 from "../../assets/jewelry/newarrival (3).png";
 
 const NewarrivalsSection = () => {
   const newarrivals = [
