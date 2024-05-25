@@ -15,13 +15,13 @@ const BestsellersSection = () => {
       about: "Ivory Collection",
     },
     {
-      id: "bestseller_1",
+      id: "bestseller_2",
       image: bestseller_2,
       link: "",
       about: "Royal Collection",
     },
     {
-      id: "bestseller_1",
+      id: "bestseller_3",
       image: bestseller_3,
       link: "",
       about: "Serene Collection",

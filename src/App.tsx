@@ -2,9 +2,10 @@
 
 // import { Route, Routes } from "react-router-dom";
 
-import HomePage from "./pages/HomePage";
+// import HomePage from "./pages/HomePage";
 
 import "./App.css";
+import ShopPage from "./pages/ShopPage";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -16,7 +17,7 @@ function App() {
         <Route path="/shop" element={<ShopPage />} />
       </Routes> */}
 
-      <HomePage></HomePage>
+      <ShopPage/>
 
       
       

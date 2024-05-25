@@ -1,0 +1,31 @@
+#filter_box {
+    margin-top: 0.2rem;
+    margin-right: 0.3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.208);
+}
+
+label {
+    margin-left: 0.4rem;
+}
+
+/* Accordian */
+.accordian {
+  background-color: var(--primary-color);
+  padding-bottom: 0.3rem;
+  color: #2c2c2c;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+.panel {
+  /* display: none; */
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  overflow: hidden;
+}

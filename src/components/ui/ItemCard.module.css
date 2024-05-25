@@ -1,0 +1,31 @@
+#card {
+    /* height: 33rem; */
+    width: 14.5rem;
+
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+
+    transition: transform var(--primary-transition-timing);
+}
+
+#card:hover {
+    transform: scale(var(--primary-transition-image-scale));
+}
+
+#image_wrapper {
+    height: 19rem;
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+#image_wrapper > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#card > span {
+    justify-self: left;
+}

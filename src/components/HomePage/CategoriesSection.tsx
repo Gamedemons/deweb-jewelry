@@ -15,13 +15,13 @@ const CatagoriesSection = () => {
       about: "Ivory Collection",
     },
     {
-      id: "category_1",
+      id: "category_2",
       image: category_2,
       link: "",
       about: "Royal Collection",
     },
     {
-      id: "category_1",
+      id: "category_3",
       image: category_3,
       link: "",
       about: "Serene Collection",
