@@ -9,7 +9,7 @@ section {
 
 #item_category_info {
   display: grid;
-  margin: 1.5rem;
+  margin: 1.5rem 0rem;
   margin-bottom: 0.5rem;
 }
 
@@ -37,13 +37,18 @@ section {
 /* Items Section */
 #items {
   display: grid;
-  margin: 1.5rem;
   grid-template-columns: repeat(5, 1fr);
   overflow: hidden;
+  margin-top: 0.5rem;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 850px) {
   #items {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (max-width: 700px) {
+  #items {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media only screen and (max-width: 450px) {
