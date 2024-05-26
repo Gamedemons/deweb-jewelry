@@ -1,31 +1,72 @@
 #card {
-    /* height: 33rem; */
-    width: 14.5rem;
+  /* height: 33rem; */
+  width: 14.5rem;
 
-    display: grid;
-    justify-items: center;
-    overflow: hidden;
-    margin-bottom: 1.2rem;
+  display: grid;
+  justify-items: start;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
 
-    transition: transform var(--primary-transition-timing);
+  transition: transform var(--primary-transition-timing);
+  border: 1px solid cyan;
 }
 
 #card:hover {
-    transform: scale(var(--primary-transition-image-scale));
+  transform: scale(var(--primary-transition-image-scale));
 }
 
 #image_wrapper {
-    height: 19rem;
-    overflow: hidden;
-    border-radius: 1%;
+  height: 19rem;
+  overflow: hidden;
+  border-radius: 1%;
+  border: 1px solid red;
 }
 
 #image_wrapper > img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 #card > span {
-    justify-self: left;
+  justify-self: left;
+}
+
+@media only screen and (max-width: 1400px) {
+  #card {
+    width: 11.5rem;
+  }
+  #image_wrapper {
+    height: 14rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #card {
+    width: 9.5rem;
+  }
+  #card > span {
+    font-size: 0.5rem;
+  }
+  #image_wrapper {
+    height: 12rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #card {
+    width: 6rem;
+  }
+  #image_wrapper {
+    height: 7rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #card {
+    width: 4rem;
+  }
+  #card > span {
+    font-size: 0.4rem;
+  }
+  #image_wrapper {
+    height: 5rem;
+  }
 }

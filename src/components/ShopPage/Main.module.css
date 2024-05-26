@@ -9,28 +9,40 @@ section {
 
 #item_category_info {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  margin: 1.5rem;
   margin-bottom: 0.5rem;
+}
 
+#current_category {
   font-size: 2.5rem;
+  margin-bottom: 1.2rem;
 }
 
-#item_section {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+.btn_minimal {
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.318);
+  padding: 0.5rem 1.4rem;
+  transition: color 0.3s, background-color 0.3s;
 }
-
-#items {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  overflow: hidden;
-}
-
-#filter {
-  padding-left: 0.3rem;
+.btn_minimal:hover {
+  color: white;
+  background-color: black;
 }
 
 #filter_head {
-  font-size: 1.5rem;
-  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Items Section */
+#items {
+  display: grid;
+  margin: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  overflow: hidden;
+}
+@media only screen and (max-width: 650px) {
+  #items {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

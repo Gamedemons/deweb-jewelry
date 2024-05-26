@@ -1,12 +1,10 @@
-import styles from './Main.module.css'
-import ItemCard from '../ui/ItemCard';
-import FilterOptions from './FilterOptions';
-
+import styles from "./Main.module.css";
+import ItemCard from "../ui/ItemCard";
+import FilterOptions from "./FilterOptions";
 
 import bestseller_1 from "../../assets/jewelry/bestseller_1.jpg";
 import bestseller_2 from "../../assets/jewelry/bestseller_2.jpg";
 import bestseller_3 from "../../assets/jewelry/bestseller_3.jpg";
-
 
 const Main = () => {
   const bestsellers = [
@@ -76,8 +74,7 @@ const Main = () => {
 
   const filterOptionList1 = {
     filterName: "Color",
-    list: 
-    [
+    list: [
       {
         id: "Red",
         about: "Red",
@@ -89,14 +86,13 @@ const Main = () => {
       {
         id: "Blue",
         about: "Blue",
-      }
-    ]
+      },
+    ],
   };
 
   const filterOptionList2 = {
     filterName: "Brand",
-    list: 
-    [
+    list: [
       {
         id: "Redmi",
         about: "Redmi",
@@ -108,14 +104,13 @@ const Main = () => {
       {
         id: "Apple",
         about: "Apple",
-      }
-    ]
+      },
+    ],
   };
 
   const filterOptionList3 = {
     filterName: "Rating",
-    list: 
-    [
+    list: [
       {
         id: "4+",
         about: "4+",
@@ -127,42 +122,45 @@ const Main = () => {
       {
         id: "2+",
         about: "2+",
-      }
-    ]
+      },
+    ],
   };
 
-  const filters = [
-    filterOptionList1,
-    filterOptionList2,
-    filterOptionList3
-  ]
+  const filters = [filterOptionList1, filterOptionList2, filterOptionList3];
 
   const filterBoxes = filters.map((filter) => (
-    <FilterOptions filtername={filter.filterName} filterlist={filter.list}></FilterOptions> 
+    <FilterOptions
+      filtername={filter.filterName}
+      filterlist={filter.list}
+    ></FilterOptions>
   ));
+
+  let filterMenuOpen = false;
+  let sortTypes = [
+    "Price (Low to High)", 
+    "Price (High to Low)",
+    "Relevancy",
+    "Popularity"
+  ];
+  let sortMenuOpen = false;
+  let currentSortType = 0;
 
 
   return (
     <main id={styles.main}>
       <section id={styles.item_category_info}>
-        <aside></aside>
+        <span id={styles.current_category}>Category Name</span>
         <div>
-          <span>Category Name</span>
-          <div></div>
+          <span id={styles.filter_head} className={styles.btn_minimal}>Filters</span>
+          {filterMenuOpen ? filterBoxes : null}
+          <span id={styles.sort_head} className={styles.btn_minimal}>Sort : {sortTypes[currentSortType]}</span>
+          {filterMenuOpen ? "Sort" : null}
         </div>
       </section>
-      
-      <section id={styles.item_section}>
-        <aside id={styles.filter}>
-          <span id={styles.filter_head}>Filters</span>
-          {filterBoxes}
-        </aside>
-        <div id={styles.items}>
-          { BestsellersCard }
-        </div>
-      </section>
-    </main>
-  )
-}
 
-export default Main
+      <section id={styles.items}>{BestsellersCard}</section>
+    </main>
+  );
+};
+
+export default Main;
