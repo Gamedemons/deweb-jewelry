@@ -135,8 +135,8 @@ const Main = () => {
     ></FilterOptions>
   ));
 
-  let filterMenuOpen = false;
-  let sortTypes = [
+  const filterMenuOpen = false;
+  const sortTypes = [
     "Price (Low to High)", 
     "Price (High to Low)",
     "Relevancy",
