@@ -142,8 +142,8 @@ const Main = () => {
     "Relevancy",
     "Popularity"
   ];
-  let sortMenuOpen = false;
-  let currentSortType = 0;
+  const sortMenuOpen = false;
+  const currentSortType = 0;
 
 
   return (
@@ -154,7 +154,7 @@ const Main = () => {
           <span id={styles.filter_head} className={styles.btn_minimal}>Filters</span>
           {filterMenuOpen ? filterBoxes : null}
           <span id={styles.sort_head} className={styles.btn_minimal}>Sort : {sortTypes[currentSortType]}</span>
-          {filterMenuOpen ? "Sort" : null}
+          {sortMenuOpen ? "Sort" : null}
         </div>
       </section>
 
